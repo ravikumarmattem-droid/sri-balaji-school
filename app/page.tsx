@@ -71,7 +71,11 @@ export default function Home() {
 
         {/* Payment & Donation బటన్స్ - ఇవి ఇప్పుడు ఖచ్చితంగా కనిపిస్తాయి */}
         <div style={{ marginTop: '40px', display: 'flex', justifyContent: 'center', gap: '25px' }}>
-          <button onClick={() => alert("Payment Gateway coming soon! 💳")} style={{ padding: '15px 30px', backgroundColor: '#10b981', color: 'white', border: 'none', borderRadius: '15px', cursor: 'pointer', fontWeight: 'bold', boxShadow: '0 10px 20px rgba(16, 185, 129, 0.2)' }}>Online Payment 💳</button>
+<a href="/scan.jpg" target="_blank" style={{ textDecoration: 'none' }}>
+  <button style={{ padding: '15px 30px', borderRadius: '50px', border: 'none', backgroundColor: '#10B981', color: 'white', fontSize: '18px', fontWeight: 'bold', cursor: 'pointer', boxShadow: '0 10px 20px rgba(16, 185, 129, 0.4)' }}>
+    Online Payment 💳
+  </button>
+</a>
           <button onClick={() => alert("Donation Page coming soon! 🎁")} style={{ padding: '15px 30px', backgroundColor: '#8b5cf6', color: 'white', border: 'none', borderRadius: '15px', cursor: 'pointer', fontWeight: 'bold', boxShadow: '0 10px 20px rgba(139, 92, 246, 0.2)' }}>School Donation 🎁</button>
         </div>
       </div>
